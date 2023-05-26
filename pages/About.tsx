@@ -140,11 +140,6 @@ export default function project1() {
           line 2
         </p> */}
       </div>
-
-
-
-      {/* <Skills /> */}
-
     </Page>
   );
 }

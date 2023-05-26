@@ -89,7 +89,7 @@ export default function project1() {
           </div>
 
         </div>
-
+{/* 
         <p className="text-white font-bold text-xl text-center bg-t-pink -mx-60 py-5">
           Apart from design, you can find my interest here ⬇️
         </p>
@@ -129,7 +129,7 @@ export default function project1() {
               src="/static/projects/edu.jpg"
             />
           </div>
-        </div>
+        </div> */}
 
 
         {/* <h2 className="font-bold text-3xl px-10 py-5">

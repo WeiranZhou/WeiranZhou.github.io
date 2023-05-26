@@ -27,6 +27,7 @@ module.exports = {
         bg: "#ffffff",
         "book": "#B1DCFF",
         "audemic": "#ECFEFF",
+        "audemicbold":"#38E3E8",
         "t-pink":"#E79AAD",
         "default": "#45494E",
         "fun-gray-light": "#b2bbcf",

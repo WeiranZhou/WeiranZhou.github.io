@@ -51,7 +51,7 @@ export default function project1() {
                 className="w-8 relative "
                 src="/static/icons/mail-f.svg"
               /></a>
-              <a href="mailto:zhouweiran.zwr@gmail.com"><img
+              <a href="static/projects/CV-PDF.pdf"><img
                 className="w-8 relative "
                 src="/static/icons/cv.svg"
               /></a>
@@ -90,7 +90,7 @@ export default function project1() {
 
         </div>
 
-        {/* <p className="text-white font-bold text-xl text-center bg-t-pink -mx-60 py-5">
+        <p className="text-white font-bold text-xl text-center bg-t-pink -mx-60 py-5">
           Apart from design, you can find my interest here ⬇️
         </p>
         <div className="grid grid-cols-1 text-center space-x-50 space-y-5 justify-between py-5 mx-20">
@@ -129,7 +129,7 @@ export default function project1() {
               src="/static/projects/edu.jpg"
             />
           </div>
-        </div> */}
+        </div>
 
 
         {/* <h2 className="font-bold text-3xl px-10 py-5">

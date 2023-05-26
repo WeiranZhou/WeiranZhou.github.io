@@ -21,7 +21,7 @@ function ProjectCard({ project }) {
       <div className="w-full mt-5">
         <div className="flex projects-center justify-between">
           <a href={project.link} target="_blank">
-            <h3 className="text-lg font-bold">{project.title}</h3>
+            <h3 className="text-2xl font-bold">{project.title}</h3>
           </a>
           <div className="space-x-2">
             {/* {project.link && (
@@ -46,8 +46,8 @@ function ProjectCard({ project }) {
             )} */}
           </div>
         </div>
-        <p className="text-fun-gray text-left text-sm">{project.desc}</p>
-        <ul className="flex flex-wrap items-center mt-2 -ml-2 list-none">
+        <p className="text-fun-gray text-left text-lg">{project.desc}</p>
+        <ul className="flex flex-wrap items-center mb-4 mt-2 -ml-2 list-none">
           {project.tags.map((tag, index) => {
             return (
               <li key={tag}>

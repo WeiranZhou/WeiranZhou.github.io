@@ -50,6 +50,7 @@ export default function project1() {
           line 2
         </p> */}
       </div>
+   
 
       {/* <div className="bg-audemic -mx-40 my-20 ">
 
@@ -69,7 +70,10 @@ export default function project1() {
         </div>
 
       </div> */}
-
+   <h2 className="font-bold text-3xl px-20 py-1">
+          What's the context?
+        </h2>
+        <img src="/static/projects/b-bg.png"/>
       <div className="flex flex-col mt-20 space-y-8 mx-auto text-left">
         
 
@@ -77,10 +81,7 @@ export default function project1() {
 
         <div className="h-[90]  rounded-xl">
          
-          <img
-            src="/static/projects/A4 - 3.jpg"
-            
-          />
+        
           <img
            src="/static/projects/A4 - 4.jpg"
           />

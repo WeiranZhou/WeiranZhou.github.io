@@ -1,5 +1,6 @@
 import Page from "@/components/utility/Page";
 import projects from "@/data/content/projects";
+// import components from "@/components/utility/main.css"
 
 export default function project1() {
   return (
@@ -45,13 +46,29 @@ export default function project1() {
             <a href="https://audemic.io/">Audemic</a>
           </div>
         </div>
-        {/* <h2 className="font-bold text-3xl px-20 py-5">
+        <h2 className="font-bold text-3xl px-20 py-1">
           What's the context?
         </h2>
-        <p className="text-gray-500 text-xl px-20 py-5">
-          line1<br />
-          line 2
-        </p> */}
+
+        <p className="text-gray-500 text-xl px-20">
+          ADHD is a growing global psychiatric disorder with life-long symptoms. There is a total estimate of 2.6million people in the UK with ADHD.</p>
+        <div className="flex space-x-50 justify-between py-5 px-20">
+          <div className="place-items-center rounded-lg box-border h-48 w-80 p-4  shadow-lg shadow-fun-pink-light/20">
+            <img className="px-28" src="/static/icons/percent.svg" />
+            <p className="px-4 py-4 text-center text-xl font-medium">Adults have the incidence rate of 3-4% to be diagnosed with ADHD.</p>
+
+          </div>
+          <div className=" rounded-lg box-border h-48 w-80 p-4  shadow-lg shadow-fun-pink-light/20">
+          <img className="px-28" src="/static/icons/time.svg" />
+            <p className="px-4 py-4 text-center text-xl font-medium">People with ADHD utilise strategies to improve academic performance.</p>
+
+          </div>
+          <div className="place-items-center rounded-lg box-border h-48 w-80 p-4  shadow-lg shadow-fun-pink-light/20">
+          <img className="px-28" src="/static/icons/audio.svg" />
+            <p className="px-4 py-4 text-center text-xl font-medium">Audemic aims to make research more accessible through audio.</p>
+
+          </div>
+        </div>
       </div>
 
       <div className="bg-audemic -mx-40 my-20 ">
@@ -231,11 +248,11 @@ export default function project1() {
             className="h-[90]  rounded-xl"
             src="/static/projects/a-productivity.jpg"
           />
-           <h3 className="font-normal text-2xl px-20 pt-5 pb-1">
+          <h3 className="font-normal text-2xl px-20 pt-5 pb-1">
             Functions for ADHD Users
           </h3>
           <p className="text-gray-500 text-xl px-20 py-2">
-           Borad Version was introduced to divide papers visually into small tasks and the colourful interfaces maintain interest of ADHD users. Mindmap is proven a useful tool for people with ADHD to improve productivity in learning. Therefore, I designed the Mindmap function that automatically organises the highlights users made.
+            Borad Version was introduced to divide papers visually into small tasks and the colourful interfaces maintain interest of ADHD users. Mindmap is proven a useful tool for people with ADHD to improve productivity in learning. Therefore, I designed the Mindmap function that automatically organises the highlights users made.
           </p>
 
           <img
@@ -246,10 +263,10 @@ export default function project1() {
             className="h-[90]  rounded-xl"
             src="/static/projects/a-mindmap.jpg"
           />
-           <h3 className="font-normal text-2xl px-20 pt-5 pb-1">
-           Collaboration
+          <h3 className="font-normal text-2xl px-20 pt-5 pb-1">
+            Collaboration
           </h3>
-         
+
 
           <img
             className="h-[90]  rounded-xl"

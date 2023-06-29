@@ -24,6 +24,16 @@ const projects: Project[] = [
   {
     id: 2,
     
+    title: "Petiu",
+    desc: "A pet farewell service system",
+    img: "/static/projects/c-cover-l.jpg",
+    img1:"static/projects/cover-s-1.jpg",
+    link: "/project-Petiu",
+    tags: ["UX Design", "User Research", "Service Design"],
+  },
+  {
+    id: 3,
+    
     title: "Book",
     desc: "Make digital reading effective",
     img: "/static/projects/1-cover.jpg",
@@ -33,7 +43,7 @@ const projects: Project[] = [
   },
   
   {
-    id: 3,
+    id: 4,
     title: "Trolleye",
     desc: "An indoor navigation app designed for people with visual impairments to shop in-store independently.",
     img: "/static/projects/4-cover.jpg",

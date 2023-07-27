@@ -4,25 +4,6 @@ import { Project } from "types";
 const projects: Project[] = [
   {
     id: 0,
-    title: "Audemic Redesign",
-    desc: "Redesign Audemic with a focus on people with ADHD",
-    img: "/static/projects/3-cover.jpg",
-    img1:"static/projects/cover-s-2.jpg",
-    link: "/project-Audemic",
-    tags: ["Accessibility", "UX Design", "Redesign","Web Design"],
-  },
-    
-  {
-    id: 1,
-    title: "Bendo",
-    desc: "Raise awareness for invisible disability - Endometriosis in the workplace. ",
-    img: "/static/projects/2-cover.jpg",
-    img1:"static/projects/cover-s-1.jpg",
-    link: "/project-Bendo",
-    tags: ["UX Design", "Service Design", "Mobile Design"],
-  },
-  {
-    id: 2,
     
     title: "Petiu",
     desc: "A pet farewell service system",
@@ -30,6 +11,27 @@ const projects: Project[] = [
     img1:"static/projects/cover-s-1.jpg",
     link: "/project-Petiu",
     tags: ["UX Design", "User Research", "Service Design"],
+  },
+    
+  {
+    id: 1,
+    title: "Audemic Redesign",
+    desc: "Redesign Audemic with a focus on people with ADHD",
+    img: "/static/projects/3-cover.jpg",
+    img1:"static/projects/cover-s-2.jpg",
+    link: "/project-Audemic",
+    tags: ["Accessibility", "UX Design", "Redesign","Web Design"],
+  },
+  {
+    id: 2,
+    
+   
+    title: "Bendo",
+    desc: "Raise awareness for invisible disability - Endometriosis in the workplace. ",
+    img: "/static/projects/2-cover.jpg",
+    img1:"static/projects/cover-s-1.jpg",
+    link: "/project-Bendo",
+    tags: ["UX Design", "Service Design", "Mobile Design"],
   },
   {
     id: 3,

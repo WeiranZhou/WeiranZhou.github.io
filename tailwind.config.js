@@ -30,6 +30,7 @@ module.exports = {
         "audemicbold":"#38E3E8",
         "petiu":"#FDECF2",
         "t-pink":"#E79AAD",
+        "bendo":"#FFF9EB",
         "default": "#45494E",
         "fun-gray-light": "#b2bbcf",
         "fun-gray": "#7b89a8",

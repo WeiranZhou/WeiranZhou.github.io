@@ -38,7 +38,7 @@ export default function project1() {
           </div>
           <div className="flex flex-col">
             <p className="font-bold underline">Duration</p>
-            <p>04/2021 - 07/2021</p>
+            <p>04/2022 - 07/2022</p>
           </div>
           <div className="flex flex-col">
             <p className="font-bold underline">Award</p>
@@ -258,10 +258,14 @@ export default function project1() {
               Touch point map
             </p>
           </div>
-
+         
         </div>
+       
         <div className="bg-petiu -mx-40 my-16 ">
-          
+        <h2 className="font-bold text-3xl px-60 py-5">
+            Reflections
+          </h2>
+          <p className="px-60 pb-5">This is the first collaborative project that I devoted with so much love. I chose this topic because I have a cat myself and I tend to not think about losing him. However, this is the thing we cannot avoid one day. As a designer who wishes to challenge wicked problems in real life, I started to face this problem. I found participants to do the survey and did several interviews. I tried to find similarities between their feelings and my resonance with them. I quite love the design that builds the connections between previous and current customers. I gained the experience of doing research with target customers and analysing qualitative and quantitative data. </p>
         </div>
       </div>
 

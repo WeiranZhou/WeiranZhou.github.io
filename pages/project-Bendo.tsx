@@ -70,7 +70,7 @@ export default function project1() {
         </div>
 
       </div> */}
-   <h2 className="font-bold text-3xl px-20 py-1">
+   <h2 className="font-bold text-3xl px-20 py-8">
           What's the context?
         </h2>
         <img src="/static/projects/b-bg.png"/>
@@ -101,7 +101,12 @@ export default function project1() {
            src="/static/projects/A4 - 9.jpg"
           />
         </div>
-
+        <div className="-mx-40 my-16 ">
+        <h2 className="font-bold text-3xl px-60 py-5">
+            Reflections
+          </h2>
+          <p className="px-60 pb-5 text-base">This project was under the topic of hidden disability. Out of the concern for women's rights, we chose endometriosis to reveal the hidden pain for women. I found the power of teamwork from this project. We were six females of enthusiasm to complete the female project. We brainstorms together and evaluate to choose the best idea. I mainly did the research and service design. We have also considered the business feasibility to turn Bendo into a community that encourage all the women speak for their hidden difficulty in the workplace. However, the limitation of this project is lacking first-hand user research. It encourages me to take part in more women-related design project.</p>
+        </div>
       </div>
 
     </Page >

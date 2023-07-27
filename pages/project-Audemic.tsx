@@ -273,7 +273,12 @@ export default function project1() {
             src="/static/projects/a-motivation.jpg"
           />
         </div>
-
+        <div className="bg-audemic -mx-40 my-16 ">
+        <h2 className="font-bold text-3xl px-60 py-5">
+            Reflections
+          </h2>
+          <p className="px-60 pb-5 text-base">From this project, I have the chance of learning the group of people with ADHD. I gained knowledge of their smyptoms and official treatment from research papers. However, it is the YouTube ADHD channels and online forums that told me the most effective treatment from the real individuals with ADHD. They can just be a mind map, a self-reward mechanison and a technique of breaking tasks. These interesting methods I collected from real users are much useful than reading papers. I got to know my passion in conducting user research with people and design solutions to improve their life experience.</p>
+        </div>
       </div>
 
     </Page >

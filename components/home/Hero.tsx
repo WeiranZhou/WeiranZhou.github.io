@@ -9,9 +9,9 @@ function Hero() {
         style={{ maxWidth: "1200px" }}
       >
         <p className="text-2xl mb-10">Hey, I'm Weiran.</p>
-        <h1 className=" heroTitle inline-block max-w-2xl lg:max-w-4xl  w-auto relative text-xl md:text-6xl lg:text-7xl tracking-normal mb-24 font-medium heroShinyBg">
-          I'm a <span className="heroShiny1 text-fun-pink">Product designer</span> who focuses on designing {" "}
-          <span className="heroShiny2 text-fun-pink">user-centred</span> and <span className="heroShiny2 text-fun-pink">accessible</span> digital products
+        <h1 className=" heroTitle inline-block max-w-2xl lg:max-w-4xl  w-auto relative text-xl md:text-6xl lg:text-7xl tracking-wide mb-24 font-medium heroShinyBg">
+          I'm a <span className="heroShiny1 text-fun-pink">designer</span> who focuses on {" "}
+          <span className="heroShiny2 text-fun-pink">disability inclusion</span> and <span className="heroShiny2 text-fun-pink">accessible</span> digital products
           {/* <img
             className="sqD squiggle-hero-html w-16 top-[-90px] right-[5%] sm:top-[-90px] sm:right-[170px]"
             style={{ animationDelay: "0.1s" }}

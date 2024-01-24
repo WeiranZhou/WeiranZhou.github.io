@@ -74,7 +74,7 @@ export const footer: Footer = {
      
         {
           name: "LinkedIn",
-          link: "linkedin.com/in/weiran-zhou-685110238",
+          link: "https://www.linkedin.com/in/weiran-zhou-685110238/",
           icon: "/static/icons/linkedin-f.svg",
           leavesWebsite: true,
         },

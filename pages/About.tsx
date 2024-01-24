@@ -51,7 +51,7 @@ export default function project1() {
                 className="w-8 relative "
                 src="/static/icons/mail-f.svg"
               /></a>
-              <a href="static/projects/CV-PDF.pdf"><img
+              <a href="static/projects/CV-2024.pdf"><img
                 className="w-8 relative "
                 src="/static/icons/cv.svg"
               /></a>
@@ -60,7 +60,7 @@ export default function project1() {
         </div>
 
 
-        <div className=" -mx-60 py-10 my-7">
+        <div className=" -mx-60 py-10 mt-7">
 
           <div className="flex space-x-50 justify-between  align-middlepy-5 px-40">
             <div className="lex flex-col w-1/3  ml-20 py-5 text-center place-content-center">
@@ -89,9 +89,9 @@ export default function project1() {
           </div>
 
         </div>
-
-        <p className="text-white font-bold text-xl text-center bg-t-pink -mx-60 py-5">
-          Apart from design, you can find my interest here ⬇️
+        <div className="-w-full h-0.5 bg-fun-pink mb-5"></div>
+        <p className="font-medium text-4xl text-center -mx-60 py-5">
+          Projects of my interest
         </p>
         <div className="grid grid-cols-1 text-center space-x-50 space-y-5 justify-between py-5 mx-20">
           <div className="flex flex-col mx-auto">

@@ -18,7 +18,7 @@ import Testimonials from "@/components/home/Testimonials";
 
 export default function Home() {
   return (
-    <Page currentPage="Portfolio" meta={{ desc: "I'm a passionate web developer and designer coding beautiful websites and apps." }}>
+    <Page currentPage="Portfolio" meta={{ desc: "I'm an accessibility innovator." }}>
       <Hero />
       <div className="mt-20 space-y-32">
         <Projects />

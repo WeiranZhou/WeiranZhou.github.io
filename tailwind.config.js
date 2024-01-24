@@ -31,6 +31,10 @@ module.exports = {
         "petiu":"#FDECF2",
         "t-pink":"#E79AAD",
         "bendo":"#FFF9EB",
+        "PR":"#4285F4",
+        "PR-light":"#3982FB",
+        "PR-bg":"#F1F8FF",
+        "PR-sbg":"#EEF0FF",
         "default": "#45494E",
         "fun-gray-light": "#b2bbcf",
         "fun-gray": "#7b89a8",
@@ -58,6 +62,9 @@ module.exports = {
       },
       willChange: {
         'projectCard': 'border-color, opacity, transform',
+      },
+     Shadow:{
+        'lg':'0 0 0 rgba(0, 0, 0, 0.6)'
       }
     },
   },

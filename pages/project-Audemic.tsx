@@ -53,12 +53,12 @@ export default function project1() {
         <p className="text-gray-500 text-xl px-20">
           ADHD is a growing global psychiatric disorder with life-long symptoms. There is a total estimate of 2.6million people in the UK with ADHD.</p>
         <div className="flex space-x-50 justify-between py-5 px-20">
-          <div className="place-items-center rounded-lg box-border h-48 w-80 p-4  shadow-lg shadow-fun-pink-light/20">
+          <div className="place-items-center rounded-lg box-border h-48 w-80 p-4 shadow-lg shadow-fun-pink-light/20">
             <img className="px-28" src="/static/icons/percent.svg" />
             <p className="px-4 py-4 text-center text-xl font-medium">Adults have the incidence rate of 3-4% to be diagnosed with ADHD.</p>
 
           </div>
-          <div className=" rounded-lg box-border h-48 w-80 p-4  shadow-lg shadow-fun-pink-light/20">
+          <div className=" rounded-lg box-border h-48 w-80 p-4 shadow-lg shadow-fun-pink-light/20">
           <img className="px-28" src="/static/icons/time.svg" />
             <p className="px-4 py-4 text-center text-xl font-medium">People with ADHD utilise strategies to improve academic performance.</p>
 

@@ -4,23 +4,23 @@ import { Project } from "types";
 const projects: Project[] = [
   {
     id: 0,
+    title: "Training for Project Relate",
+    desc: "Training of Project Relate for speech and language therapists to learn the novel speech recognition app",
+    img: "/static/projects/d-cover.jpg",
+    img1:"static/projects/cover-s-1.jpg",
+    link: "/project-PR",
+    tags: ["User Research", "UX Design", "AT Service"],
+   
+  },
     
+  {
+    id: 1,
     title: "Petiu",
     desc: "A pet farewell service system",
     img: "/static/projects/c-cover-l.jpg",
     img1:"static/projects/cover-s-1.jpg",
     link: "/project-Petiu",
     tags: ["UX Design", "User Research", "Service Design"],
-  },
-    
-  {
-    id: 1,
-    title: "Audemic Redesign",
-    desc: "Redesign Audemic with a focus on people with ADHD",
-    img: "/static/projects/3-cover.jpg",
-    img1:"static/projects/cover-s-2.jpg",
-    link: "/project-Audemic",
-    tags: ["Accessibility", "UX Design", "Redesign","Web Design"],
   },
   {
     id: 2,
@@ -36,12 +36,13 @@ const projects: Project[] = [
   {
     id: 3,
     
-    title: "Book",
-    desc: "Make digital reading effective",
-    img: "/static/projects/1-cover.jpg",
-    img1:"static/projects/cover-s-1.jpg",
-    link: "/project1",
-    tags: ["UX Design", "User Research", "Mobile Design"],
+    title: "Audemic Redesign",
+    desc: "Redesign Audemic with a focus on people with ADHD",
+    img: "/static/projects/3-cover.jpg",
+    img1:"static/projects/cover-s-2.jpg",
+    link: "/project-Audemic",
+    tags: ["Accessibility", "UX Design", "Redesign","Web Design"],
+  
   },
   
   {

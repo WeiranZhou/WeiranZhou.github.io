@@ -658,7 +658,8 @@ export default function project1() {
               After submitting my dissertation, I started to tranform my design into a website by WIX. Due to the limitation of the website builder and several user tests, the final outcome went through a series of changes.
             </p>
             {/* <div className="mx-auto"> */}
-              <button className="rounded-lg bg-PR px-6 py-6 text-lg mx-auto my-8 text-white hover:bg-PR/70">View the website </button>
+              <button className="rounded-lg bg-PR px-6 py-6 text-lg mx-auto my-8 text-white hover:bg-PR/70">  <a href="https://weiranzhou22.wixsite.com/relate-training" >
+                          View the website  </a></button>
             {/* </div> */}
           </div>
         </div>

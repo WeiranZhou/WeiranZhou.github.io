@@ -21,14 +21,17 @@ export default function project1() {
             {/* <div className="w-full h-0.5 bg-fun-pink"></div> */}
 
             <p className="text-gray-500 text-xl pb-4">
-              Based in London
+               
             </p>
 
             <p className="text-fun-pink text-xl  pb-2">
-              #UX design
+              #Inclusive design
             </p>
             <p className="text-fun-pink text-xl  pb-2">
               #Accessibility
+            </p>
+            <p className="text-fun-pink text-xl  pb-2">
+              #User Research
             </p>
           </div>
 
@@ -38,7 +41,8 @@ export default function project1() {
             </h1>
 
             <p className="text-gray-500 text-xl ">
-              I’m currently studying <a href="https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/disability-design-and-innovation-msc" className="hover:underline text-fun-pink">MSc Disability Design & Innovation</a> at UCL.<br />
+              I’m a researcher passionate about disability inclusion, assistive technology, and human-computer interaction, with a strong focus on using user-centred approaches to tackle pressing societal challenges. 
+              <br />I completed my Master's in<a href="https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/disability-design-and-innovation-msc" className="hover:underline text-fun-pink"> Disability Design & Innovation</a> at UCL.
               I studied <a href="https://dams.njust.edu.cn/7a/57/c16768a293463/page.htm" className="hover:underline text-fun-pink">Industrial Design</a> during my undergraduate, when I found my passion for user experience design. I design for the goal of enabling equal access of digital products for everyone.
             </p>
 
@@ -51,10 +55,10 @@ export default function project1() {
                 className="w-8 relative "
                 src="/static/icons/mail-f.svg"
               /></a>
-              <a href="static/projects/CV-2024.pdf"><img
+             { /*<a href="static/projects/CV-2024.pdf"><img
                 className="w-8 relative "
                 src="/static/icons/cv.svg"
-              /></a>
+  /></a>*/}
             </div>
           </div>
         </div>
@@ -90,10 +94,22 @@ export default function project1() {
 
         </div>
         <div className="-w-full h-0.5 bg-fun-pink mb-5"></div>
-        <p className="font-medium text-4xl text-center -mx-60 py-5">
-          Projects of my interest
+        <p className="font-medium text-3xl text-center -mx-60 py-2">
+          Things interest me apart from academic
         </p>
         <div className="grid grid-cols-1 text-center space-x-50 space-y-5 justify-between py-5 mx-20">
+          <div className="flex flex-col mx-auto">
+
+            <p className="font-bold text-xl text-gray-800 pt-6 pb-3">I enjoy bouldering.</p>
+            <div className="w-auto h-0.5 bg-gray-300 mb-3"></div>
+            <p>You need to learn how to fall before you learn how to climb. This is the first thing I learnt from bouldering. 
+            </p>
+            <img
+              className="w-full mx-auto relative my-3"
+              src="static/projects/bouldering.jpg"
+            />
+          </div>
+
           <div className="flex flex-col mx-auto">
 
             <p className="font-bold text-xl text-gray-800 pt-6 pb-3">I love music.</p>
@@ -132,7 +148,7 @@ export default function project1() {
         </div>
 
 
-         {/* <h2 className="font-bold text-3xl px-10 py-5">
+        {/* <h2 className="font-bold text-3xl px-10 py-5">
         //   My Education
         // </h2>
         // <p className="text-gray-500 text-xl px-20 py-5">

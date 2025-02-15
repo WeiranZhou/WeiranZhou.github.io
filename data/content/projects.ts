@@ -51,7 +51,7 @@ const projects: Project[] = [
     desc: "An indoor navigation app designed for people with visual impairments to shop in-store independently.",
     img: "/static/projects/4-cover.jpg",
     img1:"static/projects/cover-s-1.jpg",
-    link: "https://bitcointemp.com",
+    link: "/project-trolleye",
     tags: ["Accessibility", "UX Design","Mobile Design"],
   },
 

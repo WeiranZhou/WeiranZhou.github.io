@@ -30,9 +30,19 @@ export default function project1() {
             <p className="text-fun-pink text-xl  pb-2">
               #User Research
             </p>
+            <div className="flex justify-center space-x-6 py-4">
+              <a href="https://linkedin.com/in/weiran-zhou-685110238"><img
+                className="w-7 object-center "
+                src="/static/icons/linkedin-f.svg"
+              /></a>
+              <a href="mailto:zhouweiran.zwr@gmail.com"><img
+                className="w-8 relative "
+                src="/static/icons/mail-f.svg"
+              /></a>
+            </div>
           </div>
 
-          <div className="flex flex-col w-2/3 space-y-3   mr-8 ml-7">
+          <div className="flex flex-col w-2/3 space-y-3 mt-20  mr-8 ml-7">
             <h1 className="font-bold text-5xl text-gray-800 py-5">
               Hi, there
             </h1>
@@ -43,16 +53,6 @@ export default function project1() {
               I studied <a href="https://dams.njust.edu.cn/7a/57/c16768a293463/page.htm" className="hover:underline text-fun-pink">Industrial Design</a> during my undergraduate, when I found my passion for user experience design. I design for the goal of enabling equal access of digital products for everyone.
             </p>
 
-            <div className="flex flex-row space-x-6 py-4">
-              <a href="https://linkedin.com/in/weiran-zhou-685110238"><img
-                className="w-7 object-center "
-                src="/static/icons/linkedin-f.svg"
-              /></a>
-              <a href="mailto:zhouweiran.zwr@gmail.com"><img
-                className="w-8 relative "
-                src="/static/icons/mail-f.svg"
-              /></a>
-            </div>
           </div>
         </div>
 
@@ -86,8 +86,8 @@ export default function project1() {
           </div>
 
         </div>
-        <div className="-w-full h-0.5 bg-fun-pink mb-5"></div>
-        <p className="font-medium text-3xl text-center -mx-60 py-2">
+        <div className="-w-full h-0.5 bg-fun-pink my-5"></div>
+        <p className="font-medium text-3xl text-center -mx-60 pt-2">
           Things interest me apart from academic
         </p>
         <div className="grid grid-cols-1 text-center space-x-50 space-y-5 justify-between py-5 mx-20">

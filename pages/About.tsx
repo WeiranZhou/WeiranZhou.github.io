@@ -5,24 +5,21 @@ import { skills } from "@/data/content/home";
 
 export default function project1() {
   return (
-    <Page currentPage="About" meta={{ desc: "I'm a passionate web developer and designer coding beautiful websites and apps." }}>
+    <Page currentPage="About" meta={{ desc: "I'm interested in accessibility, user experience and HCI." }}>
 
 
       <div className="flex flex-col my-2 mx-20 text-left">
         <div className="flex">
           <div className="flex flex-col w-1/3 text-center ml-10 mr-2">
+
             <img
               className="w-36 mx-auto relative rounded-full   will-change-projectCard mb-3 mt-10"
               src="static/projects/my-picture.jpg"
             />
+
             <h1 className="font-bold text-xl text-gray-800 py-3">
               Weiran Zhou
             </h1>
-            {/* <div className="w-full h-0.5 bg-fun-pink"></div> */}
-
-            <p className="text-gray-500 text-xl pb-4">
-               
-            </p>
 
             <p className="text-fun-pink text-xl  pb-2">
               #Inclusive design
@@ -35,18 +32,18 @@ export default function project1() {
             </p>
           </div>
 
-          <div className="flex flex-col w-2/3 space-y-3 mt-24  mr-8 ml-7">
+          <div className="flex flex-col w-2/3 space-y-3   mr-8 ml-7">
             <h1 className="font-bold text-5xl text-gray-800 py-5">
               Hi, there
             </h1>
 
             <p className="text-gray-500 text-xl ">
-              I’m a researcher passionate about disability inclusion, assistive technology, and human-computer interaction, with a strong focus on using user-centred approaches to tackle pressing societal challenges. 
+              I’m a researcher passionate about disability inclusion, assistive technology, and human-computer interaction, with a strong focus on using user-centred approaches to tackle pressing societal challenges.
               <br />I completed my Master's in<a href="https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/disability-design-and-innovation-msc" className="hover:underline text-fun-pink"> Disability Design & Innovation</a> at UCL.
               I studied <a href="https://dams.njust.edu.cn/7a/57/c16768a293463/page.htm" className="hover:underline text-fun-pink">Industrial Design</a> during my undergraduate, when I found my passion for user experience design. I design for the goal of enabling equal access of digital products for everyone.
             </p>
 
-            <div className="flex flex-row space-x-6">
+            <div className="flex flex-row space-x-6 py-4">
               <a href="https://linkedin.com/in/weiran-zhou-685110238"><img
                 className="w-7 object-center "
                 src="/static/icons/linkedin-f.svg"
@@ -55,22 +52,18 @@ export default function project1() {
                 className="w-8 relative "
                 src="/static/icons/mail-f.svg"
               /></a>
-             { /*<a href="static/projects/CV-2024.pdf"><img
-                className="w-8 relative "
-                src="/static/icons/cv.svg"
-  /></a>*/}
             </div>
           </div>
         </div>
 
 
-        <div className=" -mx-60 py-10 mt-7">
+        <div className=" -mx-60 py-4 mt-7">
 
           <div className="flex space-x-50 justify-between  align-middlepy-5 px-40">
             <div className="lex flex-col w-1/3  ml-20 py-5 text-center place-content-center">
               <p className="text-gray-800 text-xl font-bold ">Software Skills</p>
-
             </div>
+
             <div className="flex flex-col w-2/3 ">
               <div className="relative max-w-lg w-full mr-auto md:mx-none grid gap-x-8 gap-y-12 sm:gap-8 md:gap-12 grid-cols-1 sm:grid-cols-6 items-center place-content-center">
                 {skills.map((item, index) => {
@@ -102,7 +95,7 @@ export default function project1() {
 
             <p className="font-bold text-xl text-gray-800 pt-6 pb-3">I enjoy bouldering.</p>
             <div className="w-auto h-0.5 bg-gray-300 mb-3"></div>
-            <p>You need to learn how to fall before you learn how to climb. This is the first thing I learnt from bouldering. 
+            <p>You need to learn how to fall before you learn how to climb. This is the first thing I learnt from bouldering.
             </p>
             <img
               className="w-full mx-auto relative my-3"

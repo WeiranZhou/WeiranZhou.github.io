@@ -28,3 +28,12 @@ export const skills: Skill[] = [
   },
 ];
 
+export const testimonials = [
+  {
+    quote: "hi",
+    name: "Weiran",
+    job: "research",
+  },
+];
+
+
